@@ -1,5 +1,5 @@
 f:: Int -> [Int] -> [Int]
-f n arr = 
+f n arr = filter (< n) arr
 
 main = do 
     n <- readLn :: IO Int 
